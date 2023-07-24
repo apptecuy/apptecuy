@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Proyecto 1.0" company="APPTEC" webLink="http://" view-date="2023-04-01" view-index="0" gantt-divider-location="420" resource-divider-location="300" version="3.2.3247" locale="es_ES">
+    <description/>
+    <view zooming-state="default:10" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="303" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="24" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="77" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <timeline>
+            <![CDATA[136,1]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#666600 #006633 #990000 #006666 #ffffff #ffcccc #0033ff #99ccff #cccc00 #00cc33]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="PRIMERA ENTREGA" color="#ff0000" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="true" start="2023-07-24" duration="0" complete="0" thirdDate="2023-04-06" thirdDate-constraint="0" priority="4" expand="false"/>
+        <task id="2" name="SEGUNDA ENTREGA" color="#ff0000" meeting="true" start="2023-09-11" duration="0" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="3" name="TERCERA ENTREGA" color="#ff0000" meeting="true" start="2023-11-13" duration="0" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="136" name="ANÁLISIS" color="#006666" meeting="false" start="2023-05-15" duration="95" complete="0" thirdDate="2023-05-01" thirdDate-constraint="0" expand="false">
+            <task id="37" name="Organización de la empresa" color="#cccc00" meeting="false" start="2023-05-15" duration="5" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="33" name="Relevamiento" color="#00cc33" meeting="false" start="2023-05-15" duration="10" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="ESRE" color="#00cc33" meeting="false" start="2023-06-02" duration="11" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="31" name="Estudio de factibilidades" color="#00cc33" meeting="false" start="2023-06-02" duration="11" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="28" name="Definición de roles de usuario con permisos y privilegios" color="#00cc33" meeting="false" start="2023-06-02" duration="11" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="29" name="Planificación" color="#00cc33" meeting="false" start="2023-06-02" duration="16" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="8" name="Estudio de usuarios del servidor" color="#99ccff" meeting="false" start="2023-06-02" duration="16" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="27" name="Lógica del sistema" color="#00cc33" meeting="false" start="2023-06-13" duration="14" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="69" name="Elección de ciclo de vida" color="#cccc00" meeting="false" start="2023-06-13" duration="4" complete="0" thirdDate="2023-04-17" thirdDate-constraint="0" expand="true"/>
+            <task id="39" name="Diagrama de Gantt" color="#cccc00" meeting="false" start="2023-06-13" duration="4" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="34" name="Planilla de historias y Trello del Backlog con las historias consolidadas" color="#cccc00" meeting="false" start="2023-06-13" duration="26" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="Relevamiento y justificación del S.O." color="#99ccff" meeting="false" start="2023-06-12" duration="10" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" name="Manual de instalación de S.O." color="#99ccff" meeting="false" start="2023-06-26" duration="3" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Manual de Instalación MySQL MariaDB" color="#99ccff" meeting="false" start="2023-06-26" duration="3" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Modelo Conceptual MER (primera vesión)" color="#8cb6ce" meeting="false" start="2023-06-12" duration="15" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" expand="true">
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" name="R.N.E." color="#8cb6ce" meeting="false" start="2023-07-03" duration="5" complete="0" thirdDate="2023-05-22" thirdDate-constraint="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="6" name="Esquema relacional normalizado" color="#8cb6ce" meeting="false" start="2023-07-10" duration="5" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" name="Diccionario de datos" color="#8cb6ce" meeting="false" start="2023-07-17" duration="2" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="55" name="Criterio de aceptación de historias de usuario" color="#cccc00" meeting="false" start="2023-07-25" duration="4" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="54" name="Gráficas de esfuerzo" color="#cccc00" meeting="false" start="2023-07-25" duration="5" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="52" name="Revisión de diagrama de Kanban" color="#cccc00" meeting="false" start="2023-07-25" duration="5" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="43" name="Análisis costo-beneficio" color="#00cc33" meeting="false" start="2023-07-25" duration="5" complete="0" thirdDate="2023-06-26" thirdDate-constraint="0" expand="true"/>
+            <task id="44" name="Calculo de métricas del proyecto" color="#00cc33" meeting="false" start="2023-07-25" duration="5" complete="0" thirdDate="2023-06-26" thirdDate-constraint="0" expand="true"/>
+            <task id="42" name="Diagrama de clases" color="#00cc33" meeting="false" start="2023-07-25" duration="5" complete="0" thirdDate="2023-06-26" thirdDate-constraint="0" expand="true"/>
+            <task id="40" name="Historias de usuario (product backlog y sprint backlog)" color="#00cc33" meeting="false" start="2023-07-25" duration="9" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="60" name="Cálculo de métricas" color="#cccc00" meeting="false" start="2023-09-14" duration="7" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="57" name="Revisión del diagrama de Kanban" color="#cccc00" meeting="false" start="2023-09-14" duration="7" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="49" name="Comparación métricas (tamaño y función)" color="#00cc33" meeting="false" start="2023-09-14" duration="7" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="46" name="Revisión de historias de usuario" color="#00cc33" meeting="false" start="2023-09-14" duration="7" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="47" name="Análisis FODA ponderado" color="#00cc33" meeting="false" start="2023-09-18" duration="5" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="78" name="Logs de auditoría creados por el equipo de trabajo" color="#99ccff" meeting="false" start="2023-09-14" duration="7" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="137" name="DISEÑO" color="#990000" meeting="false" start="2023-05-30" duration="93" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="false">
+            <task id="30" name="Prototipo de la aplicación Diseño - Programación" color="#00cc33" meeting="false" start="2023-05-30" duration="36" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true"/>
+            <task id="20" name="Selección del nombre del sistema a realizar" color="#ffcccc" meeting="false" start="2023-05-30" duration="4" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="21" name="Estrategia visual" color="#ffcccc" meeting="false" start="2023-05-30" duration="14" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="24" name="Propuesta de reformulación del sitio del cliente" color="#ffcccc" meeting="false" start="2023-06-19" duration="22" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="92" name="Gestión de usuarios y permisos" color="#8cb6ce" meeting="false" start="2023-07-25" duration="9" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true"/>
+            <task id="85" name="Modelo conceptual DER con correcciones" color="#8cb6ce" meeting="false" start="2023-07-25" duration="9" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true">
+                <depend id="87" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="87" name="RNE" color="#8cb6ce" meeting="false" start="2023-08-07" duration="3" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true">
+                <depend id="86" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="86" name="Esquema relacional normalizado (tercera forma normal)" color="#8cb6ce" meeting="false" start="2023-08-10" duration="3" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true"/>
+            <task id="41" name="Diagrama UML (casos de uso, planilla y diagramación)" color="#00cc33" meeting="false" start="2023-07-25" duration="9" complete="0" thirdDate="2023-06-26" thirdDate-constraint="0" expand="true"/>
+            <task id="109" name="Diseño completa de la app" color="#0033ff" meeting="false" start="2023-07-25" duration="15" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" expand="true"/>
+            <task id="121" name="Mockup (mobile y PC) y propotipado" color="#ffcccc" meeting="false" start="2023-07-25" duration="15" complete="0" thirdDate="2023-06-26" thirdDate-constraint="0" expand="true"/>
+            <task id="45" name="Revisión de diagrama de clases" color="#00cc33" meeting="false" start="2023-09-22" duration="6" complete="0" thirdDate="2023-06-26" thirdDate-constraint="0" expand="true"/>
+            <task id="93" name="Modelo conceptual DER versión final" color="#8cb6ce" meeting="false" start="2023-09-25" duration="5" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true">
+                <depend id="95" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="95" name="RNE" color="#8cb6ce" meeting="false" start="2023-10-02" duration="1" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true">
+                <depend id="94" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="94" name="Esquema relacional normalizado (tercera forma normal)" color="#8cb6ce" meeting="false" start="2023-10-03" duration="3" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="138" name="IMPLEMENTACIÓN" color="#666600" meeting="false" start="2023-06-15" duration="107" complete="0" thirdDate="2023-05-01" thirdDate-constraint="0" expand="false">
+            <task id="23" name="Estructura CSS básica" color="#ffcccc" meeting="false" start="2023-06-15" duration="24" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="22" name="Estructura HTML5 básica" color="#ffcccc" meeting="false" start="2023-06-15" duration="24" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="26" name="Integración Diseño - Programación" color="#ffcccc" meeting="false" start="2023-06-15" duration="24" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="16" name="Estructura del proyecto en 3 capas (POO)" color="#0033ff" meeting="false" start="2023-06-15" duration="24" complete="1" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="14" name="Script Gestión de usuarios y grupos (Primero versión)" color="#99ccff" meeting="false" start="2023-07-03" duration="13" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="25" name="Implementación del sitio web de la empresa" color="#ffcccc" meeting="false" start="2023-07-10" duration="7" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="Instalación de servidor LAMP" color="#99ccff" meeting="false" start="2023-07-17" duration="3" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Instalación de Docker" color="#99ccff" meeting="false" start="2023-07-17" duration="3" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="35" name="Creación de repositorio en Gihub" color="#cccc00" meeting="false" start="2023-07-14" duration="3" complete="0" thirdDate="2023-05-08" thirdDate-constraint="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" name="Subir proyecto a Github" color="#0033ff" meeting="false" start="2023-07-19" duration="3" complete="0" thirdDate="2023-04-24" thirdDate-constraint="0" expand="true"/>
+            <task id="120" name="Correcciones de la primera entrega (DISEÑO WEB)" color="#ffcccc" meeting="false" start="2023-07-25" duration="14" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="91" name="Primera implementación física de la BD con el servidor de la empresa" color="#8cb6ce" meeting="false" start="2023-08-14" duration="14" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true"/>
+            <task id="88" name="Sentencias DDL para la creación de tablas y estructuras necesarias" color="#8cb6ce" meeting="false" start="2023-09-01" duration="5" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true"/>
+            <task id="90" name="Sentencias DCL de permisos a la Base de Datos" color="#8cb6ce" meeting="false" start="2023-09-01" duration="5" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true"/>
+            <task id="63" name="Configuraciones de red en terminales y servidor" color="#99ccff" meeting="false" start="2023-07-25" duration="4" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" expand="true"/>
+            <task id="61" name="Usuarios necesarios en el S.O. creados de acuerdo al estudio" color="#99ccff" meeting="false" start="2023-08-02" duration="8" complete="0" thirdDate="2023-07-24" thirdDate-constraint="0" expand="true"/>
+            <task id="62" name="Menú de operador de Centro de Cómputos" color="#99ccff" meeting="false" start="2023-08-11" duration="16" complete="0" thirdDate="2023-07-17" thirdDate-constraint="0" expand="true"/>
+            <task id="110" name="Conexión de la app con la base de datos" color="#0033ff" meeting="false" start="2023-09-04" duration="5" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" expand="true"/>
+            <task id="126" name="Implementación de altas, bajas y modificación con PHP" color="#ffcccc" meeting="false" start="2023-08-11" duration="21" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true"/>
+            <task id="130" name="Técnicas responsive: aplicar Bootstrap u otro Framework" color="#ffcccc" meeting="false" start="2023-08-11" duration="21" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="122" name="Formularios: adecuados, correctos, con controles desde HTML" color="#ffcccc" meeting="false" start="2023-08-14" duration="10" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true"/>
+            <task id="124" name="JacaScript: configuración de las funcionalidades de los formularios" color="#ffcccc" meeting="false" start="2023-08-21" duration="15" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true"/>
+            <task id="123" name="JavaScript: controles: mensajes de error (color rojo) mensajes de OK (color verde) mensajes de advertencias (color amarillo)" color="#ffcccc" meeting="false" start="2023-08-21" duration="15" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true"/>
+            <task id="64" name="Configuración del servicio SSH" color="#99ccff" meeting="false" start="2023-09-01" duration="5" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" expand="true"/>
+            <task id="66" name="Configuración de Firewall de Linux" color="#99ccff" meeting="false" start="2023-09-01" duration="5" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" expand="true"/>
+            <task id="65" name="Archivo crontab" color="#99ccff" meeting="false" start="2023-09-01" duration="5" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" expand="true"/>
+            <task id="111" name="Datos de prueba de la versión primaria de la BD" color="#0033ff" meeting="false" start="2023-08-28" duration="10" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" expand="true"/>
+            <task id="53" name="Plan de contingencia" color="#cccc00" meeting="false" start="2023-08-28" duration="10" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="70" name="Subir proyecto a repositorio GitHub" color="#cccc00" meeting="false" start="2023-09-07" duration="2" complete="0" thirdDate="2023-07-10" thirdDate-constraint="0" expand="true"/>
+            <task id="132" name="Registro de dominio" color="#ffcccc" meeting="false" start="2023-09-14" duration="2" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="133" name="Crear cuenta en un servicio de hosting gratuito" color="#ffcccc" meeting="false" start="2023-09-14" duration="2" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="129" name="Correcciones de primera y segunda entrega" color="#ffcccc" meeting="false" start="2023-09-14" duration="7" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="131" name="Plataforma web terminada con todas sus características funcionando" color="#ffcccc" meeting="false" start="2023-09-14" duration="32" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="116" name="Sistema final terminado con su máquina correspondiente y código fuente" color="#0033ff" meeting="false" start="2023-09-14" duration="32" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true"/>
+            <task id="76" name="Usuarios del proyecto creados a partir del estudio de roles" color="#99ccff" meeting="false" start="2023-09-14" duration="3" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="82" name="Menú para el administrador del sistema" color="#99ccff" meeting="false" start="2023-10-06" duration="21" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="96" name="Modelo físico, versión final completa con permisos aplicados y vistas, si correspondiera" color="#8cb6ce" meeting="false" start="2023-10-09" duration="20" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="102" name="Configuración de encoding de tablas" color="#8cb6ce" meeting="false" start="2023-10-23" duration="10" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="101" name="Configuración de caché en MySQL" color="#8cb6ce" meeting="false" start="2023-10-30" duration="5" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="99" name="Backup's y recuperación" color="#8cb6ce" meeting="false" start="2023-10-30" duration="5" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="97" name="Consultas SQL versión final completa" color="#8cb6ce" meeting="false" start="2023-10-30" duration="5" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="81" name="Generar un servidor de respaldo de datos" color="#99ccff" meeting="false" start="2023-10-23" duration="10" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="79" name="Gestión de respaldos remotos" color="#99ccff" meeting="false" start="2023-10-23" duration="10" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="75" name="Instalación de MySQL/MariaDB" color="#99ccff" meeting="false" start="2023-10-30" duration="5" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="74" name="Instalación de Docker y las imágenes usadas (MySQL/MariaDB, PHP, Apache, etc)" color="#99ccff" meeting="false" start="2023-10-30" duration="5" complete="0" thirdDate="2023-08-21" thirdDate-constraint="0" expand="true"/>
+            <task id="73" name="Instalación del servidor LAMP local" color="#99ccff" meeting="false" start="2023-10-30" duration="5" complete="0" thirdDate="2023-08-21" thirdDate-constraint="0" expand="true"/>
+            <task id="72" name="Instalación y puesta a punto del servidor" color="#99ccff" meeting="false" start="2023-10-30" duration="5" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Con una explicación detallada de su implementación para admin de sistemas..]]>
+                </notes>
+            </task>
+            <task id="51" name="Manual de instalación y mantenimiento de la app" color="#00cc33" meeting="false" start="2023-10-30" duration="10" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="98" name="Sugerencias para política de respaldos de la BD y logs" color="#8cb6ce" meeting="false" start="2023-11-06" duration="5" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="58" name="Documentación de cierre de proyecto" color="#cccc00" meeting="false" start="2023-11-06" duration="5" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="50" name="Manual de usuario" color="#00cc33" meeting="false" start="2023-11-09" duration="2" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="71" name="Subir proyecto a repositorio GItHub" color="#cccc00" meeting="false" start="2023-11-09" duration="2" complete="0" thirdDate="2023-07-31" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="139" name="CONTROL DE CALIDAD" color="#8cb6ce" meeting="false" start="2023-11-06" duration="5" complete="0" thirdDate="2023-03-20" thirdDate-constraint="0" expand="false">
+            <task id="48" name="Plan de testing (pruebas funcionales - tablas de desición - casos de uso)" color="#00cc33" meeting="false" start="2023-11-06" duration="5" complete="0" thirdDate="2023-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="119" name="Usuarios y contraseñas para prueba del sistema" color="#0033ff" meeting="false" start="2023-11-06" duration="5" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
