@@ -1,0 +1,119 @@
+body{
+    margin: 10;
+    padding: 0;
+   background-image: url(posiblefondo.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   font-family: sans-serif;
+   background-position: center center;
+}
+.contenedor{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+    align-items: center;
+    
+    height: 800px;
+    width: 1200px;
+    background-color: rgba(0,0,0, 70%) ;
+    opacity: 0.96;
+    
+    border: white 2px solid;
+   
+    border-radius: 10%;
+    margin-top: 80px;
+
+position: relative;
+
+
+}
+
+h1{
+    display: flex;
+    align-self: center;
+ 
+    height: 100px;
+    width: 700px;
+    font-size: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
+    -webkit-text-stroke: 1px white;
+   position: relative;   
+    left: 80px;
+   
+}
+h2{
+    display: flex;
+    align-self: center;
+    height: 100px;
+    width: 700px;
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    -webkit-text-stroke: 1px blue;
+    position: relative;
+    
+    bottom: 20px;
+    left: 100px;
+}
+h3{
+    display: flex;
+    align-self: center;
+    height: 100px;
+    width: 500px;
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    -webkit-text-stroke: 1px blue;
+    position: relative;
+    bottom: 10px;
+    left: 40px;
+    
+    
+}
+
+.logos{ 
+  opacity: 0.9;
+    height: 500px;
+    width: 400px;
+    
+    display: flex;
+   flex-direction: row;
+    align-items: flex-end;
+    align-self: center;
+    justify-content: space-around;
+    
+    
+position: absolute;  
+left: 600px;
+top: 200px;
+
+}
+.letras{ 
+    
+    opacity: 0.8;
+ width: 500px;
+ height: 300px;
+    display: flex;
+    flex-direction: column;
+  position: absolute;
+  right: 140px;
+  top: 40px;
+
+  
+}
+.kimono{
+    opacity: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
+  position: absolute;
+  left: 10px;
+  top: 80px;
+  
+
+}

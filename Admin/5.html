@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    
+    <fieldset class="formulario" >
+
+       
+      <img src="LogoCuk.png" alt="logo" height="100" width="100" class="logo5">
+     <h2> Formulario de inscripción</h2>
+     <br>
+        <label for="Nombre:">Nombre</label> <br>
+    
+       <input type="text" id="nombre" name="nombre" title="Ingrese su nombre" value="" pattern="[A-Za-z]+" minlength="2" maxlength="15" required=""><br>
+    
+        <label for="Apellido:">Apellido</label> <br>
+    
+        <input type="text" id="apellido" name="apellido" value="" pattern="[a-zA-Z]+" minlength="2" maxlength="15" required=""><br>
+    
+        <label for="Email:">Email:</label> <br>
+    
+        <input type="email" id="email" name="email" value="" pattern="[0-9]{9}+" maxlength="9" minlength="9" required><br>
+
+    
+        <label for="CI">Cédula de identidad:</label> <br>
+    
+        <input type="number" id="ci" name="ci" value="" pattern="[0-9]{8}+" minlength="8" maxlength="8" required><br>
+    
+        <label for="Fecha">Fecha de nacimiento</label><br>
+    
+        <input type="date" id="nacimiento" name="naciemiento" value="" pattern="" required ><br>
+    
+        <label for="calidad">Calidad de participante:</label><br>
+        <select name="calidad" id="calidad" class="select5">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    <br>
+        <label for="Año" >Entidad afiliada:</label><br>
+    
+        <select name="calidad" id="calidad" class="select5">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    <br>
+        <label for="ficha " class=ficha>Ficha medica:</label><br>
+    
+        <input type="checkbox" id="ficha"  name="ficha" required> <br>
+    
+        <label for="parakarate">Parakarate:</label><br>
+    
+        <input type="checkbox"   id="parakarate" name="parakarate" > <br>
+        <select name="parakarate" id="nivel" class="select5">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <br>
+    <br>
+    <form action="6.html">
+        <input type="submit" value="Ingresar" class="boton5"> </form>
+    <br>
+        <input type="reset" value="Borrar campos" class="boton5">
+    <form action="4.html"> <br>
+        <input type="submit" value="Volver" class="volver5">
+    </form>
+            </fieldset>
+       
+</body>
+</html>

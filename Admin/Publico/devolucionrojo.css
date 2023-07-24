@@ -1,0 +1,137 @@
+body{
+    margin: 10;
+    padding: 0;
+   background-image: url(posiblefondo.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   font-family: sans-serif;
+   background-position: center center;
+ 
+
+}
+.contenedor{
+    
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+    
+    align-items: center;
+    background-color: rgba(0,0,0,70%);
+    height: 800px;
+    width: 1200px;
+   
+    border: white 2px solid;
+   
+    border-radius: 10%;
+    margin-top: 80px;
+position: relative;
+
+
+}
+
+
+.nombre{
+    
+    
+    color: red;
+    height: 100;
+    width: auto;
+    font-size: 80px;
+    font-family:'Times New Roman', Times, serif;
+    top: 50px;
+    position: relative;
+    right: 420px;
+    top: 10px;
+    -webkit-text-stroke: 1px white;
+    
+}
+h2{
+    height: 100;
+    width: auto;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    position: relative;
+    right: 420px;
+    bottom: 60px;
+    -webkit-text-stroke: 1px red;
+}
+h3{
+    height: 100;
+    width: auto;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    position: relative;
+    right: 420px;
+    bottom: 40px;
+   
+}
+
+
+
+.letras{ 
+    
+    opacity: 0.8;
+ width: 500px;
+ height: 300px;
+    display: flex;
+    flex-direction: column;
+
+  position: absolute;
+  right: 140px;
+  top: 40px;
+
+  -webkit-text-stroke: 1px red;
+}
+.kimono{
+    opacity: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
+  position: absolute;
+  left: 600px;
+  top: 80px;
+  
+
+}
+.clasificacion
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 480px;
+    height: 200px;
+    background-color: rgba(0,0,0,70%);
+border: white 3px solid;
+position: relative;
+top: 240px;
+right: 210px;
+border-radius: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+opacity: 0.9;
+
+}
+.puntaje
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border: black 2px solid;
+    font-size: 50px;
+   
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+background-color: rgba(255, 0, 0, 30%);
+border-radius: 20%;
+position: relative;
+top: 80px;
+right: 210px;
+color:white;
+opacity: 1;
+}

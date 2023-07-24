@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+      margin: 10;
+      padding: 0;
+     background-image: url(posiblefondo.png);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     min-height: 200px;
+     max-height: 1200px;
+    }
+   
+    .ganadores{
+    height: 900px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 1px solid white;
+    border-radius: 10%;
+
+    }
+
+
+
+    .Primero {
+      display: flex;
+      justify-content: center;
+      height: 200px;
+      width: 450px;
+      background-color: rgba(0, 0, 0, 80%);
+      margin-top: 100px;
+     position: relative;
+     bottom: 100px;
+     border-radius: 10%;
+     border: 1px solid gold;
+     color: white;
+    
+}
+
+  .Segundo{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 80%);
+    border-radius: 10%;
+    position: relative;
+    bottom: 50px;
+     border: 2px solid silver ;
+     color: white;
+   
+
+}
+.Terceros{
+display: flex;
+flex-direction: row;
+position: relative;
+top: 150px;
+}
+
+.dobletercero{
+display: flex;
+      justify-content: center;
+      height: 200px;
+      width: 450px;
+      background-color: rgba(0, 0, 0, 80%);
+      margin-top:;
+     position: relative;
+     bottom: 150px;
+     border-radius: 10%;
+     border: 1px solid brown;
+     color: white;
+     margin-left: 3%;
+     
+    }
