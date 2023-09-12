@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Nuevaspestañasadmin.css">
+    <title>Nueva competencia</title>
+</head>
+<body>
+    <div class="Nuevacompetencia">
+      <h1>Nueva competencia</h1>
+      <br>
+      <form method="POST" action="../PHP/ingresarformulario.php">
+      <h4>Nombre de la competencia</h4>
+     <input type="text" name="nombre"  class="data">
+     <br>
+     <h4>Fecha de la competencia</h4>
+     <input type="date" name="fecha" class="data">
+     <br>
+     <h4>Hora de la competencia</h4>
+     <input type="time" name="hora" class="data">
+     <br>
+     <h4>Lugar de la competencia</h4>
+     <input type="text" name="lugar" class="data">
+<br>
+<br>
+<br>
+     <input type="submit" class="crearcompetencia" value="Crear competencia">
+    </form>
+     <br>
+     <br>
+     <form action="competencias.html">
+     <input type="submit" class="regresar" value="Regresar">
+    </form>
+
+
+
+
+    </div>
+    
+</body>
+</html>

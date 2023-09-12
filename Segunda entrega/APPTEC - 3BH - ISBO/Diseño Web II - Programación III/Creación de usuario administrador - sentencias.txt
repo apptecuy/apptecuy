@@ -1,0 +1,6 @@
+Creación de usuario administrador - sentencias.
+
+use bdkatascore;
+
+INSERT INTO usuario (nombre_usuario, contraseña, tipo) VALUES
+('administrador','administrador','administrador');

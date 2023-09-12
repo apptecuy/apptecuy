@@ -1,0 +1,179 @@
+body{
+  display: flex;
+  justify-content: center;
+    margin: 10;
+    padding: 0;
+   background-image: url(posiblefondo.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   font-family: sans-serif;
+   background-position: center ;
+
+}
+.contenedor{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+    align-items: center;
+    
+    height: 800px;
+    width: 1200px;
+    background-color:  rgba(0,0,0, 70%);
+    opacity: 0.97;
+    border: white 2px solid;
+   
+    border-radius: 10%;
+    margin-top: 80px;
+
+position: relative;
+
+
+}
+
+h1{
+    height: 100;
+    width: auto;
+    font-size: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:red;
+    -webkit-text-stroke: 0.5px white;
+}
+h2{
+    height: 100;
+    
+    width: auto;
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    opacity: 1;
+    position: relative;
+bottom: 40px;    
+-webkit-text-stroke: 1px red;
+    
+
+}
+h3{
+    height: 100;
+    width: auto;
+    font-size: 47px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    -webkit-text-stroke: 1px red;
+    position: relative;
+    bottom: 30px;
+}
+
+.logos{ 
+  opacity: 0.9;
+    height: 500px;
+    width: 400px;
+    
+    display: flex;
+   flex-direction: row;
+    align-items: flex-end;
+    align-self: center;
+    justify-content: space-around;
+    
+    
+position: absolute;  
+left: 600px;
+top: 200px;
+
+}
+.letras{ 
+    
+    opacity: 0.8;
+ width: 500px;
+ height: 300px;
+    display: flex;
+    flex-direction: column;
+  position: absolute;
+  right: 140px;
+  top: 40px;
+
+  
+}
+.kimono{
+    opacity: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
+  position: absolute;
+  left: 10px;
+  top: 80px;
+  
+
+}
+/*/mostrar sorteo al publico /*/
+.bodysorteo{
+  display: flex;
+  justify-content: center;
+
+}
+.div9{
+  position: absolute;
+  top: 50px;
+  margin: 2 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 850px;
+  width: 1500px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 10%;
+  border: 2px solid white;
+  min-height: 600px;
+  max-height: 2000px;
+  min-width: 600px;
+  max-width: 2000px;
+}
+
+.columna1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+
+}
+.columna2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.columna3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.columna4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.columna5{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.botonganadores{
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  border: 2px solid skyblue;
+  border-radius: 10%;
+  height: 80px;
+  width: 250px;
+  left: 10px;
+}
+.boton9{
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  border: 2px solid skyblue;
+  border-radius: 10%;
+  height: 80px;
+  width: 250px;
+  font-size: 15px;
+}

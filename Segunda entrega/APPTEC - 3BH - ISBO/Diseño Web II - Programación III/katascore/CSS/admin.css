@@ -1,0 +1,779 @@
+body {
+    display: flex;
+    justify-content: center;
+      margin: 10;
+      padding: 0;
+     background-image: url(../IMG/posiblefondo.png);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     min-height: 200px;
+     max-height: 1200px;
+     min-width: 200px;
+     max-width: 2000px;
+     
+  }
+
+/*Registro*/
+
+.registro{
+  padding: 3%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items:center;
+   background-color: rgba(0, 0, 0, 0.75);
+   height: 700px;
+   width: 700px;
+   margin-top: 50px;
+   border: 1px solid white;
+   border-radius: 10%;
+   color: white;
+   font-size: 17px;
+   
+
+}
+.botonregistro{
+ margin-left: 10px;
+ 
+  height: 40px;
+  width: 350px;
+ background-color: gray;
+ color: black;
+ border: 0.5px solid white;
+ border-radius: 10%;
+ font-size: 20px;
+text-align: center;
+}
+.botonregistrar{
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  position: relative;
+  top:110px;
+  height: 50px;
+  width: 200px;
+  border: 1px solid white;
+  border-radius: 8%;
+}
+.aregistro{
+  text-decoration: none;
+  color: white;
+}
+/*pagina 3*/
+  .div3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    height: 700px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.85);
+border-radius: 10%;
+border: 2px solid white;
+
+  }
+  .inscripcion{
+   position: relative;
+   text-align: center;
+ right: 60px;
+  height: 150px;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.80);
+   border-radius: 10%;
+   color: white;
+   border: 1px solid white;
+   
+  }
+  .competencia{
+    position: relative;
+    left: 60px;
+ text-align: center;
+ color: white;
+    background-color: rgba(0, 0, 0, 0.80);
+    height: 150px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 10%;
+
+  }
+/*/Pagina 4/*/
+  .div4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    height: 700px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.85);
+border-radius: 10%;
+border: 2px solid white;
+
+  }
+
+  .volver{
+    height: 50px;
+    width: 80px;
+   position: relative;
+   top: 650px;
+   right: 540px;
+   border-radius: 10%;
+
+  }
+
+
+
+
+
+/*/Pagina 7/*/
+  .div7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    height: 700px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.85);
+border-radius: 10%;
+border: 2px solid white;
+
+  }
+  .sorteo{
+    position: relative;
+    left: 60px;
+ text-align: center;
+ color: white;
+    background-color: rgba(0, 0, 0, 0.80);
+    height: 150px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 10%;
+    bottom: 60px;
+
+  }
+
+  .eleccion{
+
+    position: relative;
+  right: 50px;
+  bottom: 60px;
+ text-align: center;
+ color: white;
+    background-color: rgba(0, 0, 0, 0.80);
+    height: 150px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 10%;
+  }
+  /*/ pagina 5/*/
+
+  .boton5{
+    background-color: white;
+    
+
+
+  }
+  .formulario{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 1300px;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    font-size: 20px;
+    border-radius: 10%;
+
+  }
+
+
+  .select5{
+    position: relative;
+    left: 200px;
+   background-color: rgba(0, 0, 0, 0.85);
+   height: 50px;
+   width: 400px;
+   color: white;
+   text-align: center;
+
+  }
+.formulario input{
+  display: flex;
+  justify-content: space-around;
+ 
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  text-align: center;
+  height: 40px;
+  width: 350px;
+margin: 0 auto;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  .logo5{
+    padding: 3%;
+    margin: 0 auto;
+  }
+
+
+
+
+  /*pagina 6*/
+  .div6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    height: 700px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.85);
+border-radius: 10%;
+border: 2px solid white;
+
+  }
+  .div61{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+   justify-content: space-around;
+    text-align: center;
+    color: white;
+   position: relative;
+ bottom: 55px;
+  height: 100px;
+  width: 800px;
+  }
+  .categoria6{
+    text-align: center;
+width: 200px;
+background-color: rgba(0, 0, 0, 0.85);
+color: white;
+font-size: 17px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .h36{
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.logo6{
+  position: relative;
+  bottom: 15px;
+  }
+
+.lista6{
+  height: 350px;
+ width: 800px;
+ background-color: rgba(0, 0, 0, 0.85);
+ border-radius: 10%;
+}
+.botones6{
+  display: flex;
+  flex-direction: row;
+  
+ justify-content: space-around;
+  text-align: center;
+}
+.editar6{
+  position: relative;
+top: 50px;
+right: 100px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  height: 60px ;
+  width: 150px;
+  border-radius: 10%;
+}
+.eliminar6{
+  position: relative;
+  left: 100px;
+  top: 50px;
+  background-color: rgba(255, 0, 0, 0.6);
+  color: white;
+  height: 60px ;
+  width: 150px;
+  border-radius: 10%;
+}
+.volver6{
+  height: 50px;
+  width: 70px;
+  position: relative;
+  top: 705px;
+  right: 535px;
+  border-radius: 10%;
+  
+
+
+}
+
+
+
+/*/ pagina8 /*/
+.div8{
+   
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(10, 10, 10, 78%);
+  color: white;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 720px;
+  border: 3px solid white;
+  padding: 70px 30px; 
+  border-top-right-radius: 10% 10%;
+border-top-left-radius: 10% 10%;
+border-bottom-left-radius: 10% 10%;
+border-bottom-right-radius: 10% 10%;
+}
+.div81{
+  width: 750px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+    
+}
+.tatami8{
+  position: relative;
+  right: 10px;
+  height: 250px;
+  width: 250px;
+
+}
+.h18{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  display: flex;
+ 
+  -webkit-text-stroke: 1px blue;
+
+  flex-direction:row;
+  justify-content: space-around;
+ 
+  align-self: stretch;
+  align-content: space-around;
+
+}
+.boton8{
+background-color: rgba(0, 0, 0, 0.85);
+color: white;
+width: 200px;
+height: 50px;
+font-size: 15px;
+border-radius: 10%;
+}
+  /*pagina 9*/
+
+.div9{
+  
+  position: absolute;
+  top: 150px;
+  padding: 3%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 600px;
+  width: 1400px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 10%;
+  border: 2px solid white;
+}
+.div91{
+  padding: 0.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top:10px;
+  background-color: white;
+  height: 100px;
+  width: 900px;
+  background-color: rgba(0, 0, 0, 0.85);
+   border-radius: 10%;
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-text-stroke:1px skyblue;
+  }
+  .mostrarsorteo{
+    position: relative;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 70px;
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid skyblue;
+    color: white;
+
+  }
+.mostrarganadores{
+  position: relative;
+  top: 180px;
+  left: 6px;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: black;
+  border: 2px solid skyblue;
+  border-radius: 10%;
+  height: 80px;
+  width: 200px;
+  font-size: 17px;
+}
+.botonganadores{
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  border: 2px solid skyblue;
+  border-radius: 10%;
+  height: 80px;
+  width: 250px;
+  left: 10px;
+}
+.logo9{
+position: relative;
+left: 50px;
+top: 140px;
+}
+.boton9{
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  border: 2px solid skyblue;
+  border-radius: 10%;
+  height: 80px;
+  width: 250px;
+  font-size: 15px;
+}
+.columna1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+
+}
+.columna2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.columna3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.columna4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.columna5{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+/*/iconos/*/
+.user{ 
+  position: relative;
+  right: 100px;
+  margin-bottom: 70px;
+  }
+  
+  
+  .gg-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    display: block;
+    transform: scale(var(--ggs,1));
+    box-sizing: border-box;
+    width: 20px;
+    height: 25px;
+    position: relative;
+    right: 215px;
+    top: 40px;
+    border-radius: 10px;
+    
+    
+   
+  }
+  .gg-user::after,
+  .gg-user::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid
+  }
+  .gg-user::before {
+    width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    top: 0;
+    left: 2px
+  }
+  .gg-user::after {
+    width: 12px;
+    height: 9px;
+    border-bottom: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    top: 9px
+  }
+  
+  
+  
+  .gg-key {
+    flex-direction: row;
+  
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 25px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 100px;
+    margin-left: -12px;
+    position: relative;
+    right: 215px;
+    top: 40px;
+    border-radius: 10px;
+  }
+  .gg-key::after,
+  .gg-key::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    right: -12px;
+    
+    
+  }
+  .gg-key::before {
+    background: currentColor;
+    width: 17px;
+    height: 4px;
+    top: 1px;
+  }
+  .gg-key::after {
+    width: 5px;
+    height: 3px;
+    top: 2px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+  }
+    /*/ Pagina 10 /*/
+
+    .div10{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+     align-items: center;
+      padding: 2%;
+     margin-top: 70px;
+      height: 700px;
+      width: 900px;
+      background-color: rgba(0, 0, 0, 0.85);
+      border: 1px solid white;
+      border-radius: 10%;
+    
+    }
+  
+ .boton10{
+  position: relative;
+  right: 50px;
+  height: 150px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  border: 1px solid white;
+  border-radius: 10%;
+ }
+ .boton11{
+  position: relative;
+  left: 50px;
+  height: 150px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  border: 1px solid white;
+  border-radius: 10%;
+ }
+ .boton12{
+  position: relative;
+  right: 50px;
+  height: 150px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  border: 1px solid white;
+  border-radius: 10%;
+ }
+ .boton13{
+  position: relative;
+  left: 50px;
+  height: 150px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  border: 1px solid white;
+  border-radius: 10%;
+ }
+.botonpublico10 {
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 150px;
+  border-radius: 10%;
+  border: 1px solid skyblue;
+
+}
+.botonhabilitar{
+background-color: rgba(0,255,0,0.4) ;
+color: white;
+text-align: center;
+height: 30px;
+width: 150px;
+border-radius: 10%;
+border: 1px solid white;
+}
+.botonregresar{
+  background-color: black;
+color: white;
+text-align: center;
+height: 30px;
+width: 150px;
+border-radius: 10%;
+}
+  /*/ Pagina 11 /*/
+
+ .div11{
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+align-items: center;
+  padding: 4%;
+ margin-top: 40px;
+  height: 700px;
+  width: 900px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 1px solid white;
+  border-radius: 10%;
+  color: white;
+  text-align: center;
+
+}
+.columna11{
+display: flex;
+flex-direction: row;
+align-items: center;
+position: relative;
+left: 250px;
+
+}
+.columna12{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  width: 150px;
+  position: relative;
+  bottom: 300px;
+  right: 350px;
+
+}
+.columna13{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+
+}
+.puntajejuez{
+  position: relative;
+  top: 100px;
+  right: 60px;
+  height: 60px;
+  width: 70px;
+  background-color: black;
+  border-radius: 10%;
+  border: 1px solid white;
+  }
+  .tatami11{
+    position: relative;
+    
+   top: 140px;
+   right: 110px;
+
+      }
+
+       .logocuk11{
+    position: relative;
+    top: 50px;
+    left: 0px;
+      }
+    .puntajetotal{
+
+      background-color: black;
+      color: white;
+      width: 250px;
+      height: 200px;
+      border: 1px solid skyblue;
+      border-radius: 10%;
+      position: relative;
+      right: 700px;
+      top: 80px;
+      
+
+    }
+   
+    .datacompetidor{
+      position: relative;
+      bottom: 40px;
+      right: 150px;
+     background-color: rgba(255, 255, 255, 0.95);
+     height: 60px;
+     width: 270px;
+     color: black;
+     border: 1px solid skyblue;
+      border-radius: 10%;
+    }
+    .descalificar11{
+      background-color: rgba(255, 0, 0, 0.65);
+ height: 50px;
+ width: 150px;
+ position: relative;
+ top: 190px;
+ right: 70px;
+ color: white;
+  }
+    .mostrarenpantalla11{
+   background-color: white;
+   color: black;
+   text-align: center;
+   height: 100px;
+   width: 200px;
+   border: 1px solid skyblue;
+   border-radius: 10%;
+   position: relative;
+   top: 270px;
+   right: 400px;
+     }
+

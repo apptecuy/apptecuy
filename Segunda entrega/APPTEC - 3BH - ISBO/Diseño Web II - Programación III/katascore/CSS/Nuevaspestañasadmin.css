@@ -1,0 +1,142 @@
+
+body{
+background-image: url(../IMG/posiblefondo.png);
+background-attachment: fixed;
+background-size: cover;
+display: flex;
+flex-direction: row;
+
+
+}
+
+/* pagina crear competencia y compentencias anteriores */
+.competencias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 700px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.85);
+border-radius: 10%;
+border: 2px solid white;
+}
+
+
+.Nuevacompe{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 70px;
+    width: 200px;
+position: relative;
+right: 70px;
+border: 1px solid skyblue;
+border-radius: 10%;
+}
+
+
+.Viejacompe{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+height: 70px;
+    position: relative;
+     left: 70px;
+     border: 1px solid skyblue;
+     border-radius: 10%;
+    }
+
+
+    /* pagina nueva competencia */
+
+
+    .Nuevacompetencia{
+
+        border: 1px solid white;
+        border-radius: 10%;
+   height: 700px;
+        width: 600px;
+        position: relative;
+        top: 60px;
+  margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+        background-color: rgba(0, 0, 0, 0.7);
+color: white;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    h1{
+        -webkit-text-stroke: 1px skyblue;
+         }
+
+
+
+         .crearcompetencia{
+        position: relative;
+        left: 55px;
+            width: 150px;
+            height: 40px;
+            color: skyblue;
+            background-color: black;
+            border: 1px solid skyblue;
+            border-radius: 10%;
+        }
+
+        .regresar{
+            width: 100px;
+            height: 40px;
+            color: skyblue;
+            background-color: black;
+            border: 1px solid skyblue;
+            border-radius: 10%;
+        
+        }
+
+        .data{
+            text-align: center;
+            width: 250px;
+
+        }
+
+
+        h4{
+     font-size: 15px;
+        }
+
+
+
+        /* Competencias ya creadas */
+
+.Competenciascreadas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        height: 800px;
+        width: 1000px;
+        background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 10%;
+    border: 2px solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listadecompetencias{
+    border-radius: 10%;
+    border: 1px solid skyblue;
+ padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 500px;
+    width: 800px;
+text-align: center;
+font-size: 17px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

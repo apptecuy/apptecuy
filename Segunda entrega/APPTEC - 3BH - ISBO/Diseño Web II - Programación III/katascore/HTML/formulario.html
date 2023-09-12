@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="../CSS/formulario.css">
+</head>
+<body>
+    <div class="formulario">
+        <img src="../IMG/LogoCuk.png" alt="" height="100px" width="100px">
+        <br>
+    <h1>Formulario de Registro</h1> 
+    <form action="../PHP/guardar.php" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required class="entradas"><br><br>
+
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" required class="entradas"><br><br>
+
+        <label for="mail">Email:</label><br>
+        <input type="email" id="mail" name="mail" required class="entradas"><br><br>
+
+        <label for="cedula">Cédula de Identidad:</label><br>
+        <input type="text" id="cedula" name="id_competidor" required class="entradas"><br><br>
+
+        <label for="ranking">Ranking:</label><br>
+        <input type="text" id="ranking" name="ranking" required class="entradas"><br><br>
+
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="masculino" name="sexo" value="Masculino" required>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="sexo" value="Femenino" required>
+        <label for="femenino">Femenino</label><br><br>
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nac" required><br><br>
+
+        <label for="entidad_afiliada">Entidad Afiliada:</label>
+        <br>
+        <br>
+        <select id="entidad_afiliada" name="escuela" required class="entidad_afiliada">
+            
+            <option value="Dojo 1">ASOCIACIÓN URUGUAYA DE KARATE</option>
+            <option value="Dojo 2">SHOTOKAN KARATE DO INTERNATIONAL FEDERATION URUGUAY</option>
+            <option value="Dojo 3">ASOCIACIÓN DE KARATE Y KOBUDO DEL URUGUAY</option>
+            <option value="Dojo 4">INSTITUTO DE KARATE TRADICIONAL URUGUAYO</option>
+            <option value="Dojo 5">ESCUELA URUGUAYA DE KARATE - JITSU</option>
+            <option value="Dojo 6">ISKF URUGUAY</option>
+            <option value="Dojo 7">ASOCIACIÓN CIVIL DE ESCUELAS KETSUGO</option>
+            <option value="Dojo 8">SOCIEDAD ORIENTAL DE KARATE</option>
+            <option value="Dojo 9">ASOCIACION SHOBU-RYU DE ARTES MARCIALES</option>
+            <option value="Dojo 10">ASOCIACIÓN SHITO-RYU KARATE DO URUGUAY</option>
+            <option value="Dojo 11">ASOCIACIÓN INTERNACIONAL KEN SHIN-KAN KARATE DO</option>
+            <option value="Dojo 12">ASOCIACIÓN BUSHIDO KAN</option>
+            <option value="Dojo 13">ASOCIACIÒN SHORIN-RYU SHIN-SHU-KAN KARATE-DO & KOBU-DO URUGUAY.</option>
+            <option value="Dojo 14">ASOCIACIÓN DE KARATE KYOKUSHIN UNION URUGUAY</option>
+            <option value="Dojo 14">UNK UNION NACIONAL DE KARATE</option>
+        </select><br><br>
+<br>
+        <input type="submit" name="registrar" value="Registrar" class="registrar"><br>
+        <br>
+        
+        <form action="menu_admin2.html">
+        <input type="button" name="volver" value="Regresar" class="regresar">
+        </form>
+        
+    </form>
+</div>
+</body>
+</html>

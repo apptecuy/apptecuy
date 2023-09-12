@@ -1,0 +1,1220 @@
+video {
+position:fixed;
+}
+/*Contacto */
+.h1_contacto{
+min-width: 320px;
+}
+input{
+min-width: 320px;
+}
+.container-md {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:inherit;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+background-color: rgba(13, 33, 46, 0.7);
+margin: 0 auto;
+margin-top: 70px;
+height: 600px;
+width: 1200px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-radius: 4%;
+border-color: skyblue;
+color: beige;
+min-width: 250px;
+}
+.btn{
+position: relative;
+left: 535px;
+top: 15px;
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .container-md{
+    
+        width: 80%;
+    }
+    .btn{
+    position: relative;
+    left: auto;
+    }
+
+    .h1_contacto{
+    height: auto;
+    position: relative;
+    top: 50px;
+
+    }
+}
+
+
+/* Kata Score */
+.katascore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+flex-wrap: w ;
+    align-self: center;
+    background-color: rgba(13, 33, 46, 0.5);
+    font-family:sans-serif;
+   margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+    color: beige;
+    height: 680px;
+    width: 1250px;
+   text-align: center;
+   border-radius: 10%;
+   min-width: 200px;
+}
+
+.katascoreimg{
+    position: relative;
+    
+    opacity: 0.85;
+    
+
+}
+
+
+
+.datakatascore{
+    
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    height: 600px;
+    width: 1100px;
+    padding: 0 auto;
+    -webkit-text-stroke: 0.3px skyblue;
+    border: 0.4px solid skyblue;
+    min-width: 200px;
+    
+
+}
+
+@media screen and (max-width:1200px){
+    .katascore{
+
+        width:100%;
+        padding: 40px;
+        
+    }
+    .datakatascore{
+
+        width:100%;
+        height: 100%;
+        text-align: center;
+        padding: 40px;
+       
+        
+    }
+   
+        
+
+ @media screen and (max-width:450px) {
+    .katascoreimg{
+        position: relative;
+        width: 10px;
+        width:100%;
+        height: 50%;
+       
+        
+      }
+    
+
+ }
+    @media screen and (max-height: 1000px ){
+        .katascore{
+
+            height:100%;
+            padding: 40px;
+            
+        }
+        .datakatascore{
+    
+            height:100%;
+           
+            padding: 40px;
+           
+            
+        }
+       
+    }
+}
+/* Misión y Visión */
+
+.myv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: rgba(13, 33, 46, 0.5);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+    color: beige;
+    height: 750px;
+    width: 1250px;
+    font-size: 15px;
+  text-align: center;
+   border-radius: 10%;
+   padding: 5%;
+   
+  
+
+
+}
+.pmision{
+  
+    position: relative;
+    top: 60px;
+   left:200px;
+}
+
+.pvision{
+ position: relative;
+    right:120px;
+    
+    top: 110px;
+}
+.vision{
+
+   position: relative;
+left: 350px;
+top: 240px;
+}
+
+.mision{
+     position: relative;
+    right: 270px;
+    top: 140px;
+
+    }
+
+    .lineamyv{
+        position: relative;
+        top: 110px;
+        opacity: 0.43;
+
+    }
+.myv2{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 700px;
+    width: 1050px;
+    border-radius: 4%;
+    margin-top: 10px;
+    padding: 0 auto;
+    border: 0.3px solid skyblue;
+}
+h2{
+
+-webkit-text-stroke: 1px skyblue;
+
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+@media screen and (max-height: 900px) {
+    .myv{
+       height: 100%;
+    }
+
+    .myv2{
+       height: 700px;
+    }
+   
+}
+@media screen and ( max-width: 1200px) {
+
+    .myv {
+
+        width: 80%;
+        padding: 20px;
+        height: 100%;
+
+    }
+    .myv2{
+       width: 80%;
+       height: 100%;
+    }
+
+    .pmision{
+        position: relative;
+        width: 80%;
+        padding: 20px;
+        left: 50px;
+    }
+    .pvision{
+        position: relative;
+        left: 50px;
+        top: 40px;
+        width: 80%;
+        padding: 30px;
+    }
+    .mision{
+        position: absolute;
+        width: 80%;
+        top: 45px;
+        left: 60px;
+        padding: 40px;
+    
+       
+
+        
+    }
+    .vision{
+        position: relative;
+        width: 80%;
+        top: 70px;
+        left: 50px;
+        padding: 30px;
+                
+    }
+
+    .lineamyv{
+      width: 80%;
+      position: relative;
+      top: 50px;
+    }
+}
+
+@media screen and ( max-width: 600px){
+    .mision{
+        position: relative;
+       left: 35px;
+
+    }
+    .pmision{
+        position: relative;
+        left: 35px;
+ 
+    }
+    .vision{
+        position: relative;
+        left: 35px;
+ 
+    }
+    .pvision{
+        position: relative;
+        left: 35px;
+ 
+    }
+    }
+
+    @media screen and ( max-width: 400px){
+        .mision{
+            position: relative;
+           left: 20px;
+    
+        }
+        .pmision{
+            position: relative;
+            left: 20px;
+     
+        }
+        .vision{
+            position: relative;
+            left: 20px;
+     
+        }
+        .pvision{
+            position: relative;
+            left: 20px;
+     
+        }
+        }
+/* Ubicación */
+
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: rgba(13, 33, 46, 0.5);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0 auto;
+    position: relative;
+    margin-top: 70px;
+    color: beige;
+    height: 700px;
+    width: 1250px;
+   text-align: center;
+   border-radius: 10%;
+   padding: 5%;
+   
+
+
+
+}
+
+.ubicacion2{
+ height: 600px;
+ width: 900px ;
+ background-color: rgba(0, 0, 0, 0.5);
+ margin: 0 auto;
+ padding: 5%;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+}
+
+.imagenubicacion{
+opacity: 0.9;;
+}
+
+
+@media screen and (max-width: 1200px){
+    .ubicacion{
+        width: 80%;
+    }
+
+    .ubicacion2{
+        width: 80%;
+    }
+    .imagenubicacion{
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-height: 950) {
+    .imagenubicacion{
+    height: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 800px ){
+    
+    .imagenubicacion{
+
+        height: auto;
+        
+}
+
+}
+
+
+/* index */
+
+.index{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+align-items: center;
+margin: 0 auto;
+background-color: rgba(13, 33, 46, 0.7);
+    height: 1800px;
+    width: 1200px;
+   position: relative;
+   top: 80px;
+    border: 0.2px solid skyblue;
+    border-radius: 3%;
+   
+}
+
+.tituloprincipal{
+    display: flex;
+    flex-direction: column;
+ opacity: 0.9;
+    position: relative;
+    bottom: 250px;
+    left: 300px;
+    bottom: 670px;
+    color: beige;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    -webkit-text-stroke: 0.5px skyblue;
+    height: 100px;
+    
+    box-sizing: border-box;
+    
+}
+.pccirculo{
+    opacity: 0.9;
+ position: relative;
+ left: 500px;
+ bottom: 370px;
+ box-sizing: border-box;
+}
+ 
+.columnas{
+    position: relative;
+   top:100px;
+    right: 170px;
+    color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  text-align: center;
+height: 600px;
+width: 1100px;
+background-color: rgba(13, 33, 46, 0.5);
+font-size: 20px;
+border: 0.3px solid skyblue;
+border-radius: 3%;
+padding: 40px;
+}
+
+.desarrolloweb{
+    background-color: rgba(13, 33, 46, 0.9);
+    height: 550px;
+    width: 250px;
+    border: 0.3px solid skyblue;
+    margin: 0 auto ;
+    padding: 2%;
+    margin-top: 30px;
+    border-radius: 3%;
+    font-size: 14px;
+
+}
+
+.hosting{
+    background-color: rgba(172, 212, 235, 0.95);
+    height: 550px;
+    width: 250px;
+    border: 0.3px solid skyblue;
+    margin: 0 auto ;
+    padding: 2%;
+    margin-top: 30px;
+    border-radius: 3%;
+    font-size: 14px;
+    color: rgb(4, 4, 218);
+ 
+}
+.Posicionamiento{
+    background-color: rgba(13, 33, 46, 0.9);
+    height: 550px;
+    width: 250px;
+    border: 0.3px solid skyblue;
+    margin: 0 auto ;
+    padding: 2%;
+    margin-top: 30px;
+    border-radius: 3%;
+    font-size: 14px;
+}
+.Mantenimiento{
+    background-color: rgba(172, 212, 235, 0.95);
+    height: 550px;
+    width: 250px;
+    border: 0.3px solid skyblue;
+    margin: 0 auto ;
+    
+    margin-top: 30px;
+    border-radius: 3%;
+    color: rgb(0, 0, 180);
+    font-size: 14px;
+
+}
+
+.contactoindex{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: absolute;
+   top: 1400px;
+    right:50px;
+    color: beige;
+    background-color: rgba(13, 33, 46, 0.7);
+    height: 300px;
+    width: 1100px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0.1px solid skyblue;
+    border-radius: 5%;
+
+}
+
+.wp{
+    position: relative;
+    right: 150px;
+}
+.fb{
+    position: relative;
+    right: 50px;
+}
+.ig{
+    position: relative;
+    left: 50px;
+}
+.ce{
+    position: relative;
+    left: 150px;
+}
+
+
+@media screen and (max-width:1700px){
+
+    .Mantenimiento{ 
+    padding: 2%;
+
+    }
+}
+@media screen and (max-width: 1200px) { 
+    .index {
+        width:100%;
+    }
+    .columnas{
+    width: 90%;
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+
+}
+.tituloprincipal{
+    width: 80%;
+    position: absolute;
+    right: 50px;
+   top: 150px;
+   left: 50px;
+
+
+}
+.pccirculo{
+position: relative;
+bottom: 300px;
+
+}
+.desarrolloweb{
+padding: 1.5%;
+
+}
+.hosting{
+    padding: 0.7%;
+}
+
+.Posicionamiento{
+
+    padding: 0.5%;
+}
+
+.Mantenimiento{
+
+    padding: 0.5%;
+}
+
+.contactoindex{
+ width: 90%;
+}
+}
+
+@media screen and (max-width: 900px) {
+
+    .index{
+        position: relative;
+        left: 0px;
+ width: 95%;
+ height: 2500px;
+ 
+ 
+    }
+    .tituloprincipal{
+
+        position: absolute;
+      width: 40%;
+    text-align: center;
+    
+    padding: 0px;
+
+    }
+    .pccirculo{
+        position: absolute;
+     top: 0px;
+        left: 370px;
+        height: 260px;
+        width: 260px;
+        padding: 0px;
+        
+        
+
+    }
+
+    .columnas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    position: relative;
+    width: 100%;
+    top: 150px;
+   height: 50%;
+
+    }
+    .desarrolloweb{
+        height: 500px;
+    position: relative;
+    top: 450px;
+    right: 140px;
+    width: 40%;
+    }
+    .hosting{
+        height: 550px;
+        position: relative;
+bottom: 50px;
+left: 170px;
+
+width: 40%;
+      }
+    .Posicionamiento{
+        height: 500px;
+        position: relative;
+        right: 140px;
+        bottom: 40px;
+        padding: 3%;
+        width: 40%;
+    }
+    .Mantenimiento{
+        padding: 3.5%;
+    
+        position: relative;
+bottom: 565px;
+left: 170px;
+
+width: 40%;
+    }
+.contactoindex{
+position: absolute;
+top: 2100px;
+ 
+    
+}
+}
+@media screen and (max-width: 850px){
+
+    .hosting{
+        position: relative;
+        bottom: 70px;
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 760px)
+{
+
+    .index{
+   height: 4000px;
+   display: flex;
+   flex-direction: column;
+    }
+    .tituloprincipal{
+   text-align: center;
+   position: absolute;
+   left:100px;
+   width: 70%;
+   height: 150px;
+   
+    }
+    .pccirculo{
+        height: 300px;
+        width: 300px;
+position: absolute;
+top: 400px;
+left: 70px;
+    }
+    .columnas
+    {
+         margin: 0px;
+        position: relative;
+        top: 300px;
+        height: 65%;
+        width: 70%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    }
+    .desarrolloweb{
+        position: absolute;
+        left: 110px;
+        top:0px;
+        height:550px;
+        width:250px;
+        text-align: center;
+    } 
+    .hosting{
+        text-align: center;
+        padding: 25px;
+        position: absolute;
+       bottom: 1400px;
+        left: 110px;
+        width: 250px;
+        height: auto;
+}
+.Posicionamiento{
+    position: relative;
+    top: 550px;
+ left: 0px;
+    width: 250px;
+    height: 550px;
+}  
+
+.Mantenimiento{
+    position: relative;
+    top: 600px;
+    left: 0px;
+    width: 250px;
+    height: 550px;
+}
+
+.contactoindex{
+position: absolute;
+top: 3650px;
+left: 30px;
+}
+}
+
+@media screen and (max-width: 700px) {
+    
+    .tituloprincipal{
+position: absolute;
+left: 70px;
+    }
+
+    .pccirculo{
+        position: absolute;
+        left:85px;
+
+    }
+    .desarrolloweb{
+      position:absolute;
+      left: 70px;
+      width: 65%;
+      height: auto;
+
+    }
+
+    .hosting{
+        position: absolute;
+      width: 65%;
+      left: 70px;
+      padding: 1%;
+      height: auto;
+    }
+    .Posicionamiento{
+        position: relative;
+        width: 80%;
+        padding: 7;
+        height: auto;
+    }
+
+.Mantenimiento{
+    position: relative;
+    width: 80%;
+    padding: 7;
+    height: auto;
+
+}
+}
+
+@media screen and (max-width: 600px) {
+    .columnas{
+        border: none;
+        }
+    .pccirculo{
+        position: absolute;
+        left: 40px;
+        top: 440px;
+    }
+    .contactoindex{
+        height: auto;
+        width: 90%;
+        padding: 5px;
+    }
+    .wp{
+    position: relative;
+    right: 90px;
+    }
+    .fb{
+        position: relative;
+right: 30px;
+    }
+    .ig{
+        position: relative;
+left: 40px;
+    }
+    .ce{
+        position: relative;
+        left: 100px;
+    }
+
+}
+
+@media screen and  (max-width: 500px){
+    
+    .columnas{
+    border: none;
+    }
+    .tituloprincipal{
+        position: absolute;
+left: 30px;
+        width: 90%;
+    }
+    .pccirculo{
+        position: absolute;
+        left: 15px;
+}
+
+.desarrolloweb{
+    position: absolute;
+    left: 50px;
+    width: 70%;
+    
+}
+.hosting{
+    position: absolute;
+    left: 50px;
+    width: 70%;
+}
+.Posicionamiento{
+    position: relative;
+    width: 90%;
+    padding: 7;
+    height: auto;
+}
+
+.Mantenimiento{
+position: relative;
+width: 90%;
+padding: 7;
+height: auto;
+
+}
+.wp{
+    position: relative;
+    right: 60px;
+    }
+    .fb{
+        position: relative;
+right: 10px;
+    }
+    .ig{
+        position: relative;
+left: 30px;
+    }
+    .ce{
+        position: relative;
+        left: 80px;
+    }
+
+
+}
+
+
+/* Quienes somos */
+
+
+.quienessomos{
+
+    background-color: rgba(13, 33, 46, 0.5);
+   
+    margin: 0 auto;
+   
+    height: 780px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+    border: 0.5px solid skyblue;
+    border-radius: 4%;
+    color: beige;
+
+}
+
+.quienessomos2{
+
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    right: 300px;
+    height: auto;
+   
+}
+
+.quienessomos1{
+
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+   bottom: 230px;
+   left: 250px;
+
+
+}
+
+
+.michael{
+    position: relative;
+    right: 190px;
+   top: 50px;
+    opacity: 0.85;
+
+}
+
+.michaelp{
+ width: 170px;
+ position: relative;
+ top: 60px;
+right: 300px;
+ text-align: center;
+}
+.mauro{
+    position: relative;
+right: 330px;
+   top: 50px;
+   opacity: 0.85;
+}
+.maurop{
+ width: 200px;
+    position: relative;
+    bottom: 70px;
+    right: 100px;    
+    
+
+    text-align: center;
+}
+
+
+.gonza{
+    position: relative;
+    right: 520px;
+    top: 20px;
+    opacity: 0.85;
+}
+
+.gonzalop{
+    width: 200px;
+    position: relative;
+    top: 30px;
+    right: 570px;
+text-align: center;
+}
+
+
+
+
+.emi{
+    position: relative;
+right: 530px;
+    top: 20px;
+    opacity: 0.85;
+
+}
+.emip{
+    width: 200px;
+    position: relative;
+   right: 560px;
+   top: 40px;
+}
+
+h4{
+    -webkit-text-stroke: 1px skyblue;
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .quienessomos{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        padding: 40px;
+        padding-top: 150px;
+        
+    }
+
+    .quienessomos1{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        
+    }
+    .quienessomos2{
+      display: flex;
+      flex-direction: column;
+        width: 80%;
+        height: 100%;
+        padding: 40px;
+    }
+    .michael{
+
+        position: relative;
+        top:200px;
+        right: 400px;
+        padding: 10px;
+    
+
+
+    }
+    .michaelp{
+        position: relative;
+       right: 100px;
+        height: 100%;
+        padding: 10px;
+    }
+    .mauro{
+        
+       
+        position: relative;
+       top: 200px;
+       right: 400px;
+       padding: 10px;
+        
+        
+    }
+    .maurop{
+        position: relative;
+       bottom: 200px;
+       left: 150px;
+       padding: 10px;
+       
+       
+    }
+    .gonza{
+        position: relative;
+        left: 20px;
+        
+       
+    }
+    .gonzalop{
+        position: absolute;
+        left: 300px;
+        top: 80px;
+        padding: 10px;
+    }
+
+    .emi{
+        position: relative;
+        top: 200px;
+        left: 20px;
+        padding: 10px;
+    }
+    .emip{
+        position: relative;
+        left: 320px;
+        bottom: 100px;
+        padding: 10px;
+    }
+
+    @media screen and (max-width:630px) and (max-height:1000px){
+        .quienessomos{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+           height: auto;
+            
+            
+        }
+    
+        .quienessomos1{
+            
+            width: 80%;
+            height: 100%;
+            
+        }
+        .quienessomos2{
+         
+            width: 80%;
+           
+            height: 1200px;
+            
+        }
+        .michael{
+    
+            position: relative;
+            right: 250px;
+            
+            padding: 10px;
+        
+    
+    
+        }
+        .michaelp{
+            position: relative;
+           top: 250px;
+           right: 250px;
+            padding: 10px;
+        }
+        .mauro{
+            position: relative;
+           top: 330px;
+           right: 250px;
+           padding: 10px;
+            
+            
+        }
+        .maurop{
+            position: relative;
+           top: 150px;
+           left: 0px;
+           
+           
+           
+        }
+        .gonza{
+            position: absolute;
+            left: 300px;
+            
+        
+           
+        }
+        .gonzalop{
+            position: absolute;
+            left: 290px;
+           top: 240px;
+            padding: 10px;
+        }
+    
+        .emi{
+            position: absolute;
+            left: 300px;
+            top: 450px;
+            
+           
+        }
+        .emip{
+            position: absolute;
+            left: 290px;
+            top: 660px;
+            
+            
+        }
+    }
+
+    
+}
+
+
+@media screen and (max-width:400px){ 
+
+.quienessomos{ 
+    background-color: none;
+
+}
+
+}

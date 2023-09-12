@@ -1,0 +1,72 @@
+body{
+    background-image: url(../IMG/posiblefondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+    }
+.formulario{
+ font-size: 17px;
+    position: relative;
+  
+    height: 870px;
+    width: 700px;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+    border: 1px solid skyblue;
+    border-radius: 10%;
+    }
+
+    h1{
+        -webkit-text-stroke: 1px skyblue;
+         }
+
+
+.registrar{
+
+    width: 150px;
+    height: 40px;
+    color: skyblue;
+    background-color: black;
+    border: 1px solid skyblue;
+    border-radius: 10%;
+}
+
+.regresar{
+    width: 100px;
+    height: 40px;
+    color: skyblue;
+    background-color: black;
+    border: 1px solid skyblue;
+    border-radius: 10%;
+
+}
+
+.entidad_afiliada{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: skyblue;
+text-align: center;
+height: 30px;
+}
+
+.entradas{
+    width: 270px;
+    height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+text-align: center;
+
+}

@@ -1,0 +1,9 @@
+Creación de competidores - sentencias.
+
+use bdkatascore;
+
+INSERT INTO competidor (id_competidor, nombre, apellido, mail, ranking, sexo, fecha_nac, escuela) VALUES
+(50148818,'Gonzalo','Otero', 'gonzalo@apptecuy.com', 2, 'M', '2000-05-14', 'Dojo 2'),
+(47743966,'Emiliano','Pereyra', 'emiliano@apptecuy.com', 3, 'M', '1995-11-07', 'Dojo 3'),
+(52510607,'Mauro','Gonzalez', 'mauro@apptecuy.com', 4, 'M', '1999-02-10', 'Dojo 5'),
+(45434618,'Michael','Varela','michael@apptecuy.com',1,'M','1992-09-29','Dojo 1');

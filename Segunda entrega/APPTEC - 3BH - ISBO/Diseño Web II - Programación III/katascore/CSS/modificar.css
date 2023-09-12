@@ -1,0 +1,117 @@
+body{
+ background-image: url(../IMG/posiblefondo.png);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+.modificar{
+  color: white;
+   position: relative;
+   top: 60px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    height:auto;
+    width: 1200px;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+border-radius: 5%;
+border: 1px solid white;
+}
+
+.modificarinfo{
+    border: 2px solid skyblue;
+    border-radius: 3%;
+ background-color: rgba(0, 0, 0, 0.6);
+ height: auto;
+ width: 1200px;
+    position: relative;
+    
+    color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items:flex-start;
+position: relative;
+
+}
+
+
+h1{
+color: white;
+position: relative;
+top: 20px;
+right: 50px;
+-webkit-text-stroke: 0.3px skyblue;
+}
+
+
+.titulos{
+    display: flex;
+    justify-content: space-around;
+   
+ color: skyblue;
+width: 1000px;
+position: relative;
+
+right: 150px;
+top: 10px;
+
+}
+
+.nombre{
+position: relative;
+left: 15px;
+}
+
+.apellido{
+    position: relative;
+    left: 25px;
+    }
+
+    .fecha_nac{
+        position: relative;
+        left: 70px;
+    }
+
+    .sexo{
+        position: relative;
+        left: 60px;
+    }
+    .escuela{
+        position: relative;
+   left: 50px;
+
+    }
+
+    .cabecera{
+padding-top: 15px;
+     display: flex;
+     flex-direction: row;
+     
+     justify-content: space-evenly;
+     width: 90%;
+    }
+
+    .categoria{
+       
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 5%;
+        border: 1px solid white;
+        text-align: center;
+    background-color: black;
+    color: skyblue;
+    position: relative;
+    right: 100px;
+    height:120px;
+    }
+
+    .ranking{
+  position: relative;
+  left: 20px;
+    }
+    .id{
+        position: relative;
+        left: 25px;
+    }
